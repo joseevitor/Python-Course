@@ -1,10 +1,10 @@
 import pygame
 
-
 pygame.init()
 
-pygame.mixer.music.load('music.mp3')
+
+music = str(input('Tell wich music you want to listen: '))
+pygame.mixer.music.load(music)
 pygame.mixer.music.play()
 input()
 pygame.event.wait()
-
