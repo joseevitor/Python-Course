@@ -10,6 +10,7 @@ if middle >= 3.5 and middle <= 7:
 elif middle < 3.5:
     print('The student is FAILED!!')
 
+
 else:
     print('The student is APPROVED!!')
 #print('With {} the student will be in recovery yet')
