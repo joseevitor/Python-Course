@@ -1,3 +1,5 @@
+
+
 salary = float(input('What is the clerk salary? '))
 
 if salary <= 1250:
