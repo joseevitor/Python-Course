@@ -4,6 +4,7 @@ height = float(input('Whats is your height? (m)'))
 
 MBI = weight / (height ** 2)
 
+
 print('The mass body index of this person is {:.1f}'.format(MBI))
 
 if MBI < 18.5:
